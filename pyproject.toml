@@ -10,6 +10,9 @@ python = "^3.7"
 [tool.poetry.dev-dependencies]
 pytest = "^4.6"
 
+[tool.poetry.scripts]
+snek = "poetry_demo2.snek:main"
+
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
